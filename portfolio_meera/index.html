@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo"><span>M</span>eera</h2>
+        <nav class="navigation">
+            <a href="#Home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="https://drive.google.com/uc?export=view&id=1WMqrluYmgUrX6-MZ2BJGr0tIySXUqBge" class="btn-talk">Resume</a>
+    </header>
+    <section class="home" id="Home">
+        <div class="content">
+            
+            <h2>Hi, My name is <span>Meera</span></h2>
+            <div class="info"> and I am a passionate</div>
+            <span id="element"></span>
+
+            <p>Energetic and detail-oriented Front-End Development Intern with a solid foundation in Python and proficiency in HTML, CSS, and JavaScript. Quick learner adept at mastering new technologies and frameworks.</p>
+            <div class="btn-group">
+                <a href="#">Hire Me</a>
+                <a href="#">See Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/Meeravg"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/meera-dukare-338418288/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:meeravishalg7@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Animation-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Front-end Developer|', 'Problem Solver|', 'Programmer|'],
+          typeSpeed: 150,
+          backSpeed:150,
+          loop:true
+        });
+      </script>
+      <br>
+      <section id="about">
+        <h2 class="logo"> About &nbsp;<span>me</span> </h2>
+        <br>
+        <br>
+      <div  class="secondSection">
+        <div class="profile">
+            <img class="photo" src="./meera_pro.jpg" alt="Profile_Photo">
+        </div>
+        
+        <div class="Info">
+            
+            <br>
+            <br>
+            <p class="personal_info">Hi, I am Meera Dukare, Dedicated Frontend Developer with a strong proficiency in utilizing development tools such as VSCode, PyCharm, Jupyter, Replit etc. Adept at crafting engaging and responsive web applications through expertise in HTML, CSS, JavaScript, and React. Passionate about creating seamless user experiences and continuously expanding skills in web development.</p>
+        </div>
+      </div>
+       <br>
+    </section>
+
+    <section id="Skills">
+      <div class="skillsection">
+        <h2 class="logo"><span> My </span> Skills </h2>
+
+        <h2 class="logo"><span> TECh </span>- STACK </h2>
+        <br>
+
+        <div class="Stack">
+            <div><img src="./Html.png" alt="html_logo"> <h3>HTML</h3></div>
+            <div><img src="./css.png" alt="css_logo"> <h3>CSS</h3> </div>
+            <div><img src="./js.png" alt="js_logo"> <h3>JAVASCRIPT</h3> </div>
+            <div><img src="./python.jpg" alt="python_logo"> <h3>PYTHON</h3> </div>
+            <div><img src="./react.png" alt="React_logo"> <h3>REACT</h3> </div>
+        </div>
+        
+        <h2 class="logo"><span>T</span>ools</h2>
+        <br>
+        <div class="tools">
+            <div><img src="./vscode.jpg" alt="vscode"><h3>Visual Studio</h3> </div>
+            <div><img src="./github.png" alt="github"><h3>GitHub</h3></div>
+            <div><img src="./postman (2).png" alt="postman"><h3>Postman</h3></div>
+            <div><img src="./replit.png" alt="replit"><h3>Replit</h3></div>
+            
+        </div>
+
+      </div>
+    </section>
+
+    <section id="Project">
+        <div class="projectSection">
+            
+        </div>
+    </section>
+
+      
+</body>
+</html>
