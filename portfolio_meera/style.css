@@ -192,8 +192,8 @@ h3{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     /* border: 1px solid black; */
-    margin: 90px;
-    gap:80px;
+    margin: 140px;
+    gap:90px;
     height: fit-content;
 }
 .project_child >p{
