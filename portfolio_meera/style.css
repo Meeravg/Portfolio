@@ -188,3 +188,72 @@ h3{
     margin-left: 60px;
     margin-top: 10px;
 }
+.projectSection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid black; */
+    margin: 90px;
+    gap:80px;
+    height: fit-content;
+}
+.project_child >p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: gray;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.project_child >h2{
+    font-size: 2em;
+    text-align: center;
+}
+.project_child >img{
+    width: 100%;
+    height: 70%;
+}
+.contact{
+    background-color: rgb(20,24,25);
+}
+.content-contact{
+    padding: 50px;
+    height: auto;
+    width: auto;
+}
+.content-contact>h2{
+    text-align: center;
+    font-size: 3em;
+    padding-top: 50px;
+}
+.content-contact>i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #7D2AE8;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #7D2AE8;
+    transition: .3s;
+    padding: 0px 0px 0px 8px;
+}
+.content-contact>h3{
+        font-size: 2em;
+        color: #555;
+        cursor: default;
+        margin-top: 150px;
+}
+.content-contact>a {
+   text-decoration: none;
+   color: #7D2AE8;
+   font-size: 1.7em;
+}
+
+
+
+
+
